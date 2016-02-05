@@ -21,4 +21,4 @@ DÍAS DE LA SEMANA
  * Viernes
  * Sábado
  * Domingo
-
+Descanso
