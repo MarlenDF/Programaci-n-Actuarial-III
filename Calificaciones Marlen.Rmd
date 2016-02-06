@@ -1,0 +1,36 @@
+---
+title: "Historia Académica"
+author: "Marlen DF"
+date: "5 de febrero de 2016"
+output: html_document
+---
+
+# Benemérita Universidad Autónoma de Puebla
+## Facultad de Ciencias Físico Matemáticas
+### Actuaría
+
+A continuación se muestra una lista con las materias aprobadas y las calificaciones:
+
+ * Matemáticas Básicas 9
+ * Problemas de Matemáticas Básicas 9
+ * Programación Actuarial I 7
+ * Introducción a la Profesión Actuarial 9
+ * DHPC 9
+ * Conceptos de cálculo 10
+ * Inglés I 10
+ * Inglés II 10
+ * Inglés III 10
+ * Inglés IV 10
+ * Cálculo Diferencial 10
+ * Geometría Analítica 10
+ * Teoría de Ecuaciones 9
+ * Teoría del Interés 9
+ * Microeconomía 8
+ * Formación Humana 10
+ * Cálculo Integral 10
+ * Programación Actuarial II 10
+ * Teoría del Interés II 10
+ * Macroeconomía 7
+ 
+ 
+ 
