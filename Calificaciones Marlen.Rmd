@@ -9,8 +9,10 @@ output: html_document
 ## Facultad de Ciencias Físico Matemáticas
 ### Actuaría
 
-A continuación se muestra una lista con las materias aprobadas y las calificaciones:
+A continuación se muestra una lista con las materias aprobadas y las calificaciones correspondientes a cada semestre:
 
+ PRIMER SEMESTRE
+ 
  * Matemáticas Básicas 9
  * Problemas de Matemáticas Básicas 9
  * Programación Actuarial I 7
@@ -21,11 +23,17 @@ A continuación se muestra una lista con las materias aprobadas y las calificacio
  * Inglés II 10
  * Inglés III 10
  * Inglés IV 10
+ 
+ SEGUNDO SEMESTRE
+ 
  * Cálculo Diferencial 10
  * Geometría Analítica 10
  * Teoría de Ecuaciones 9
  * Teoría del Interés 9
  * Microeconomía 8
+ 
+ TERCER SEMESTRE
+ 
  * Formación Humana 10
  * Cálculo Integral 10
  * Programación Actuarial II 10
