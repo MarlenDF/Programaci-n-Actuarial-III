@@ -1,5 +1,5 @@
-y <- runif(1)
-y
+y <- runif(1, min=0, max =100)
+
 if(y<=30) {
     msg <- "hola"
     
