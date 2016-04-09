@@ -1,0 +1,36 @@
+corr <- function(directorio, horizonte=0){
+
+    completos <- function(directorio, id = 1:332){
+    
+        nobs <- vector("numeric", length(id))
+        correl <- vector("numeric", length = 0)
+        k <- 1
+        n <- 0
+        c <- 0
+        for (i in id){
+            id2 <- formatC(i,width = 3 ,flag = "0")
+            readen <- read.csv(paste(id2, ".csv",sep=""))
+            x <- (readen$sulfate)
+            y <- (readen$nitrate)
+            
+            mydata <- data.frame(x, y)
+            
+            nobs[k] <- nrow(mydata[complete.cases(mydata),])
+                
+            if (nobs[k]>horizonte){
+                
+                length(correl) <- length(correl)+1
+                c <- c+1
+                correl[c] <- cor(readen$sulfate,readen$nitrate)
+            }
+            
+            k<-k+1
+        }
+            if (c==0) {
+                correl <- vector("numeric", length = 0)
+                correl
+            }
+    }
+}
+cr <- corr("specdata", 150)
+head(cr)
